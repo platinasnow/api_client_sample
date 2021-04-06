@@ -1,0 +1,11 @@
+server:
+  port: 8000
+spring:
+  jwt:
+    secret: $2a$10$Nz.2j8OVbxuo/taCTOVowu.A//Rr3163jJGs4cdj0vACLyvCnlCZ2
+  thymeleaf:
+    prefix: classpath:templates/
+    suffix: .html
+    cache: false
+
+

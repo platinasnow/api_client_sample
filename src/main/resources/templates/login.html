@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<form method="post" action="/loginProc">
+    <ul>
+        <li><label th:text="ID"/><input type="text" name="id" /></li>
+        <li><label th:text="PW"/><input type="password" name="pwd" /></li>
+    </ul>
+    <div>
+        <button type="submit">Login</button>
+    </div>
+</form>
+</body>
+</html>

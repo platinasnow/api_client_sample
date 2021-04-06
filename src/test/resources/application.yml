@@ -1,0 +1,5 @@
+spring:
+  jwt:
+    secret: $2a$10$Nz.2j8OVbxuo/taCTOVowu.A//Rr3163jJGs4cdj0vACLyvCnlCZ2
+
+
